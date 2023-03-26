@@ -1,0 +1,53 @@
+#root, html,body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.App {
+ 
+  height: 100%;
+  background: url('./image/motivation.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.App-header{
+  background-color: whitesmoke;
+  width: 40%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  padding: 2%;
+  box-shadow: 10px 10px 10px;
+}
+.advice{
+  display: flex;
+  align-items: center;
+  height: 500px;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.button span{
+  color: cadetblue;
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+.button:hover{
+  animation: rotate 0.7s ease-in-out both;
+}
+
+
+
+
+
+
+
+
